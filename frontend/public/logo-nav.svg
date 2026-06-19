@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 64" fill="none">
+  <g>
+    <circle cx="32" cy="32" r="28" stroke="#1A3FD6" stroke-width="2.6"/>
+    <polygon points="12,32 32,28 52,32 32,36" fill="#1A3FD6"/>
+    <polygon points="32,12 36,32 32,52 28,32" fill="#1A3FD6"/>
+    <polygon points="32,12 36,32 28,32" fill="#00A798"/>
+  </g>
+  <text x="74" y="44" font-family="Inter, Roboto, Arial, sans-serif" font-size="40" letter-spacing="-1.1" fill="#1538B4">
+    <tspan font-weight="400">Sustain</tspan><tspan font-weight="700">Atlas</tspan>
+  </text>
+</svg>

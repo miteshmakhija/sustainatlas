@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" fill="none">
+  
+
+  <rect width="900" height="360" fill="#FFFFFF"></rect>
+
+  
+  <g transform="translate(225,84) scale(1.4375)">
+    <circle cx="32" cy="32" r="28" stroke="#1A3FD6" stroke-width="2.6"></circle>
+    <polygon points="12,32 32,28 52,32 32,36" fill="#1A3FD6"></polygon>
+    <polygon points="32,12 36,32 32,52 28,32" fill="#1A3FD6"></polygon>
+    <polygon points="32,12 36,32 28,32" fill="#00A798"></polygon>
+  </g>
+
+  
+  <text x="341" y="152" font-family="Roboto, Arial, sans-serif" font-size="62" letter-spacing="-1.3" fill="#1538B4">
+    <tspan font-weight="400">Sustain</tspan><tspan font-weight="700">Atlas</tspan>
+  </text>
+
+  
+  <rect x="406" y="196" width="88" height="3" fill="#00A798"></rect>
+
+  
+  <text x="450" y="238" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="3" fill="#605E5C">CHARTING CLIMATE-SMART INVESTMENT</text>
+</svg>
