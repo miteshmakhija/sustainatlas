@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     port: 8080,
     https: true,
+    allowedHosts: ['sustainatlas.com'],
     proxy: {
       // Forward API calls to the Python (FastAPI) backend during dev
       '/api': {
