@@ -8,6 +8,7 @@ const productLinks = [
   { to: '/products/carbon-scope', label: 'Carbon Scope 1/2/3', desc: 'Emissions accounting to net zero' },
   { to: '/products/sfdr-regulatory', label: 'SFDR & Regulatory', desc: 'EU/US disclosure reporting' },
   { to: '/products/carbon-trading', label: 'Carbon Trading & Offset', desc: 'Offset & compliance management' },
+  { to: '/products/brsr', label: 'BRSR ESG Intelligence', desc: 'SEBI BRSR reporting & assurance' },
 ]
 
 export default function Navbar() {

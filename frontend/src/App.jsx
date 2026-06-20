@@ -11,6 +11,7 @@ import TechnologyHazard from './pages/TechnologyHazard.jsx'
 import CarbonScope from './pages/CarbonScope.jsx'
 import Sfdr from './pages/Sfdr.jsx'
 import CarbonTrading from './pages/CarbonTrading.jsx'
+import Brsr from './pages/Brsr.jsx'
 import Contact from './pages/Contact.jsx'
 import NotFound from './pages/NotFound.jsx'
 
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/products/carbon-scope" element={<CarbonScope />} />
           <Route path="/products/sfdr-regulatory" element={<Sfdr />} />
           <Route path="/products/carbon-trading" element={<CarbonTrading />} />
+          <Route path="/products/brsr" element={<Brsr />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

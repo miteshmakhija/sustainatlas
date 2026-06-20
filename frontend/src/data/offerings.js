@@ -64,6 +64,15 @@ export const offerings = [
     summary:
       'Calculate residual emissions, source high-integrity offsets, and manage trading and retirement to move organisations toward verified carbon compliance.',
   },
+  {
+    slug: 'brsr',
+    type: 'Product',
+    title: 'BRSR ESG Intelligence & Assurance',
+    icon: '📑',
+    tagline: 'From SEBI BRSR compliance to measurable sustainability performance.',
+    summary:
+      'An ESG intelligence platform for India’s BRSR mandate — automated KPI collection, BRSR Core assurance readiness, performance analytics and supplier scoring, anchored by a proprietary Sustainability Maturity Index.',
+  },
 ]
 
 export const getOffering = (slug) => offerings.find((o) => o.slug === slug)
