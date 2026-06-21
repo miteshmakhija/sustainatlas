@@ -23,6 +23,7 @@ export default function Footer() {
             <Link to="/products/carbon-scope">Carbon Scope 1/2/3</Link>
             <Link to="/products/sfdr-regulatory">SFDR & Regulatory</Link>
             <Link to="/products/carbon-trading">Carbon Trading & Offset</Link>
+            <Link to="/products/brsr">BRSR ESG Intelligence</Link>
           </div>
 
           <div className="fcol">
@@ -36,9 +37,9 @@ export default function Footer() {
             <h4>Get in touch</h4>
             <a href="mailto:connect@sustainatlas.com">connect@sustainatlas.com</a>
             <p style={{ color: '#aab0c2', marginTop: 10, fontSize: '0.86rem' }}>
-              WeWork Futura, Magarpatta Road,<br />
-              Kirtane Baugh, Magarpatta, Hadapsar,<br />
-              Pune, Maharashtra 411028, India
+              TEN Labs Cowork, udChalo House,<br />
+              10, Phoenix Boundary Road, Viman Nagar,<br />
+              Pune, Maharashtra 411014
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PageHeader from '../components/PageHeader.jsx'
 import { offerings } from '../data/offerings.js'
 
-const ADDRESS = 'WeWork Futura, Magarpatta Road, Kirtane Baugh, Magarpatta, Hadapsar, Pune, Maharashtra 411028, India'
+const ADDRESS = 'TEN Labs Cowork, udChalo House, 10, Phoenix Boundary Road, opp. UpSouth Hotel, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014'
 // Google Maps embed (no API key required)
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`
 
@@ -107,9 +107,10 @@ export default function Contact() {
 
             <p style={{ marginBottom: 6 }}><strong>Office</strong></p>
             <p style={{ marginTop: 0 }}>
-              WeWork Futura, Magarpatta Road,<br />
-              Kirtane Baugh, Magarpatta, Hadapsar,<br />
-              Pune, Maharashtra 411028, India
+              TEN Labs Cowork, udChalo House,<br />
+              10, Phoenix Boundary Road, opp. UpSouth Hotel,<br />
+              Sakore Nagar, Viman Nagar,<br />
+              Pune, Maharashtra 411014
             </p>
 
             <div style={{ borderRadius: 'var(--radius)', overflow: 'hidden', border: '1px solid var(--border)', boxShadow: 'var(--shadow-sm)' }}>
