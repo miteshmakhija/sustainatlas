@@ -54,7 +54,7 @@ export default function GeospatialDataset() {
             The dataset becomes powerful the moment you overlay it with hazard layers. Explore the
             relationship between geospatial coordinates and 31 physical hazards on the live map.
           </p>
-          <Link to="/products/physical-hazard" className="btn btn-primary">Open the Physical Hazard map →</Link>
+          <Link to="/products/portfolio-risk-atlas" className="btn btn-primary">Open the Portfolio Risk Atlas →</Link>
         </div>
       </section>
     </>

@@ -20,22 +20,13 @@ export const offerings = [
       'A curated, georeferenced dataset of corporate assets — coordinates, activity, ownership and GICS classification — ready to be joined with hazard, carbon and regulatory layers.',
   },
   {
-    slug: 'physical-hazard',
+    slug: 'portfolio-risk-atlas',
     type: 'Product',
-    title: 'Physical Hazard',
-    icon: '🌍',
-    tagline: 'Mapping geospatial assets to 31 physical climate hazards.',
+    title: 'Portfolio Risk Atlas',
+    icon: '🧭',
+    tagline: 'Physical, Technological & Geopolitical risk on one geospatial backbone.',
     summary:
-      'Score every asset and investment against 31 chronic and acute hazards. Hazard Risk = Physical Risk × Vulnerability × Exposure, across climate scenarios and time horizons.',
-  },
-  {
-    slug: 'technology-hazard',
-    type: 'Product',
-    title: 'Technology Hazard',
-    icon: '🛡️',
-    tagline: 'Quantifying AI technical debt & security risk as financial exposure.',
-    summary:
-      'A framework and dataset that turns AI model technical debt and security risk into measurable financial impact — so the trade-off shows up in investment and capital decisions.',
+      'One atlas that scores Physical, Technological and Geopolitical risk together — showing how they will impact future portfolios, enabling smarter decisions today, and translating into the socio-economic conditions that matter to retail clients.',
   },
   {
     slug: 'carbon-scope',

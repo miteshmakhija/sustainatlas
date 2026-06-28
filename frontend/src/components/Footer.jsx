@@ -18,8 +18,7 @@ export default function Footer() {
           <div className="fcol">
             <h4>Products</h4>
             <Link to="/products/geospatial-dataset">Geospatial Dataset</Link>
-            <Link to="/products/physical-hazard">Physical Hazard</Link>
-            <Link to="/products/technology-hazard">Technology Hazard</Link>
+            <Link to="/products/portfolio-risk-atlas">Portfolio Risk Atlas</Link>
             <Link to="/products/carbon-scope">Carbon Scope 1/2/3</Link>
             <Link to="/products/sfdr-regulatory">SFDR & Regulatory</Link>
             <Link to="/products/carbon-trading">Carbon Trading & Offset</Link>

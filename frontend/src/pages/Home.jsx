@@ -19,7 +19,7 @@ export default function Home() {
             regulation — so every dollar deployed is climate-smart.
           </p>
           <div className="hero-actions">
-            <Link to="/products/physical-hazard" className="btn btn-primary">Explore the Hazard Map →</Link>
+            <Link to="/products/portfolio-risk-atlas" className="btn btn-primary">Explore the Risk Atlas →</Link>
             <Link to="/contact" className="btn btn-ghost">Talk to us</Link>
           </div>
         </div>
@@ -94,19 +94,19 @@ export default function Home() {
       <section className="section" style={{ background: 'var(--bg-warm)', borderTop: '1px solid var(--border)' }}>
         <div className="container grid grid-2" style={{ alignItems: 'center' }}>
           <div>
-            <span className="eyebrow">Physical Hazard scoring</span>
+            <span className="eyebrow">Portfolio Risk Atlas</span>
             <h2>A single, decision-ready risk score</h2>
             <p>
-              We join every corporate asset's geospatial coordinates with 31 physical hazards,
-              then distil exposure into one number you can act on — for siting decisions,
-              due diligence and portfolio screening.
+              We join every corporate asset's geospatial coordinates with physical, technological and
+              geopolitical risk, then distil exposure into one number you can act on — for siting
+              decisions, due diligence and portfolio screening.
             </p>
             <p className="muted">
               Example: <strong>Microsoft's planned data centre in Pune</strong> or{' '}
               <strong>Google's in Visakhapatnam</strong> — we score whether a billion-dollar
               investment is resilient over the long term, and compare candidate locations.
             </p>
-            <Link to="/products/physical-hazard" className="btn btn-primary">Open the interactive map →</Link>
+            <Link to="/products/portfolio-risk-atlas" className="btn btn-primary">Open the interactive map →</Link>
           </div>
           <div className="formula">
             Hazard Risk Score ={' '}

@@ -2,8 +2,8 @@
 
 A React (Vite) website with a Python (FastAPI) backend for SustainAtlas — covering
 consultancy plus a suite of climate & sustainability data products: Geospatial Dataset,
-Physical Hazard risk scoring, Technology Hazard, Carbon Scope 1/2/3, SFDR & EU/US
-regulatory reporting, and Carbon Trading & Offset.
+the Portfolio Risk Atlas (Physical, Technological & Geopolitical risk), Carbon Scope 1/2/3,
+SFDR & EU/US regulatory reporting, and Carbon Trading & Offset.
 
 Design follows a clean, Claude.ai-style white theme using the SustainAtlas brand
 (blue `#1A3FD6`, teal `#00A798`).
@@ -91,16 +91,19 @@ Fill in credentials to deliver real email. The submitter's address is set as
 
 ## Highlights
 
-- **Physical Hazard map** (`/products/physical-hazard`) — interactive Leaflet world map.
-  Filter by hazard (all 31, with limited-availability ones marked `*`), climate scenario,
+- **Portfolio Risk Atlas** (`/products/portfolio-risk-atlas`) — one page unifying Physical,
+  Technological and Geopolitical risk. Includes an interactive Leaflet world map for physical
+  risk: filter by hazard (all 31, with limited-availability ones marked `*`), climate scenario,
   time horizon (2024–2100), issuer, country, GICS® sub-industry and activity. Each asset
   is scored and colour-coded:
 
   **Hazard Risk Score = Physical Risk × Vulnerability × Exposure**
 
-  Includes worked examples (Microsoft data centre in Pune, Google in Visakhapatnam).
-- **Technology Hazard** — whitepaper-style page quantifying AI technical debt & security
-  risk as financial exposure, with a 7-category risk taxonomy and mitigation framework.
+  Adds Technological and Geopolitical risk taxonomies, a shared risk-scoring framework, and
+  sections on how the three risks reshape future portfolios and their socio-economic impact
+  for retail clients. The old `/products/physical-hazard` and `/products/technology-hazard`
+  routes redirect here. Worked examples included (Microsoft data centre in Pune, Google in
+  Visakhapatnam).
 - **Carbon Scope 1/2/3** — GHG-Protocol methodologies and where the data is used on the
   path to net zero.
 - **SFDR & Regulatory** — EU/US frameworks, the 18 PAI indicators and the capture →

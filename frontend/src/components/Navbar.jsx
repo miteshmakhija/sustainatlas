@@ -3,8 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 const productLinks = [
   { to: '/products/geospatial-dataset', label: 'Geospatial Dataset', desc: 'Asset-level geospatial intelligence' },
-  { to: '/products/physical-hazard', label: 'Physical Hazard', desc: '31 hazards · risk scoring & map' },
-  { to: '/products/technology-hazard', label: 'Technology Hazard', desc: 'AI technical debt & security risk' },
+  { to: '/products/portfolio-risk-atlas', label: 'Portfolio Risk Atlas', desc: 'Physical · Technological · Geopolitical risk' },
   { to: '/products/carbon-scope', label: 'Carbon Scope 1/2/3', desc: 'Emissions accounting to net zero' },
   { to: '/products/sfdr-regulatory', label: 'SFDR & Regulatory', desc: 'EU/US disclosure reporting' },
   { to: '/products/carbon-trading', label: 'Carbon Trading & Offset', desc: 'Offset & compliance management' },
@@ -43,7 +42,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <NavLink to="/products/physical-hazard" onClick={close}>Hazard Map</NavLink>
+          <NavLink to="/products/portfolio-risk-atlas" onClick={close}>Risk Atlas</NavLink>
           <NavLink to="/contact" onClick={close}>Contact</NavLink>
         </nav>
       </div>

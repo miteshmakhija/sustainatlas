@@ -6,7 +6,7 @@ const ADDRESS = 'TEN Labs Cowork, udChalo House, 10, Phoenix Boundary Road, opp.
 // Google Maps embed (no API key required)
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`
 
-const initial = { name: '', email: '', company: '', interest: 'Physical Hazard', message: '' }
+const initial = { name: '', email: '', company: '', interest: 'Portfolio Risk Atlas', message: '' }
 
 // Web3Forms access key (override locally with VITE_WEB3FORMS_KEY in a .env file)
 const WEB3FORMS_KEY =
